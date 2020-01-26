@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "name": "traaittPlatform Official",
+      "url": "https://traaittsupply.com/",
+      "api": "http://traaittsupply:8117/",
+      "type": "forknote",
+      "miningAddress": "traaittsupply.com",
+      "mergedMining": false,
+      "mergedMiningIsParentChain": false
+    },
+    {
+      "name": "traaittPlatform Cryptonote.Club +TRTL +ARMS",
+      "url": "https://etrx.cryptonote.club/",
+      "api": "https://etrx.cryptonote.club:8117/",
+      "type": "forknote",
+      "miningAddress": "etrx.cryptonote.club",
+      "mergedMining": true,
+      "mergedMiningIsParentChain": true
+    },
+    {
+      "name": "traaittPlatform Cryptonote.Club +NACA +TRTL +ETRX",
+      "url": "https://naca.cryptonote.club",
+      "api": "https://naca.cryptonote.club:8117/",
+      "type": "forknote",
+      "miningAddress": "naca.cryptonote.club",
+      "mergedMining": true,
+      "mergedMiningIsParentChain": false
+    }
+  ]
+}
